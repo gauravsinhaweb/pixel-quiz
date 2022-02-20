@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/quiz.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pixeldesign.netlify.app/pixel-design.css"
+    />
+    <!-- fa icons  -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Daily Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="h3 wrapper_nav flex p-sm">
+        <div class="nav_brand_text">pixel.quiz</div>
+        <div class="wrapper_nav_icon">
+          <ul class="flex nav_icons list-none text_cl">
+            <a href="/index.html"><li>Home</li></a>
+            <a href="/pages/dashboard.html"><li>score</li></a>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="wrapper_main flex">
+        <ul class="question_list p-sm">
+          <li>
+            <div>
+              What happens in the beginning of "Halo 2" that ends the award
+              ceremony?
+            </div>
+            <ul class="options text_cl">
+              <li class="option">
+                <button class="btn btn-option out-primary flex">
+                  <span>Everyone gets their awards</span>
+                </button>
+              </li>
+              <li class="option">
+                <button class="btn btn-option out-primary flex">
+                  <span>The Covenant attack</span>
+                </button>
+              </li>
+              <li class="option">
+                <button class="btn btn-option out-primary flex">
+                  <span>The station explodes</span>
+                </button>
+              </li>
+              <li class="option">
+                <button class="btn btn-option out-primary flex">
+                  <span>The Covenant surrender</span>
+                </button>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <div>
+              What is the reason that the Arbiter is punished in the beginning
+              of "Halo 2"?
+            </div>
+            <ul class="options text_cl">
+              <li class="option">
+                <button class="btn btn-option out-primary flex">
+                  <span>Brought the Master Chief with him</span>
+                </button>
+              </li>
+              <li class="option">
+                <button class="btn btn-option out-primary flex">
+                  <span>Was actually a Grunt</span>
+                </button>
+              </li>
+              <li class="option">
+                <button class="btn btn-option out-primary flex">
+                  <span> Killed his own men</span>
+                </button>
+              </li>
+              <li class="option">
+                <button class="btn btn-option out-primary flex">
+                  <span>Blamed for being a Heretic</span>
+                </button>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div>Tempor duis duis amet cillum proident tempor id?</div>
+            <ul class="options text_cl">
+              <li class="option">
+                <button class="btn btn-option out-primary flex">
+                  <span> option 1</span>
+                </button>
+              </li>
+              <li class="option">
+                <button class="btn btn-option out-primary flex">
+                  <span> option 2</span>
+                </button>
+              </li>
+              <li class="option">
+                <button class="btn btn-option out-primary flex">
+                  <span> option 3</span>
+                </button>
+              </li>
+              <li class="option">
+                <button class="btn btn-option out-primary flex">
+                  <span> option 4</span>
+                </button>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="flex-center wrapper_submit">
+          <button id="open-modal" class="btn btn-cta btn_submit">Submit</button>
+        </div>
+      </main>
+      <!-- modal  -->
+      <div id="modal" class="modal">
+        <div class="card modal_box">
+          <div class="flex">
+            <p class="text_cl p-sm">
+              are you sure you want to submit the quiz?
+            </p>
+          </div>
+          <div class="text_cl wrapper_cta_button flex">
+            <a href="/pages/result.html"
+              ><button class="btn btn-cta">confirm</button></a
+            >
+            <button id="close-modal" class="btn out-danger">cancel</button>
+          </div>
+        </div>
+      </div>
+      <!-- rules  -->
+
+      <div id="modal-rules" class="modal">
+        <div class="card modal_box">
+          <div class="flex wrapper_title">
+            <div class="text_cl h3">Rules</div>
+            <div id="close-rules">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+          </div>
+          <hr />
+          <ul class="p-sm">
+            <li>This quiz consists of 5 multiple-choice questions.</li>
+            <li>Time alotted for the quiz : 20 minutes.</li>
+            <li>Points will be awarded : 2 points for each right answer.</li>
+            <li>Each multiple choice question has only one correct answer.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="/javascript/modal.js"></script>
+  </body>
+</html>
