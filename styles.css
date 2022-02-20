@@ -36,7 +36,7 @@ header > .card {
   cursor: pointer;
   color: var(--bg-color);
   font-family: "Shadows Into Light", cursive;
-  font-weight: 600 !important;
+  font-weight: 600;
 }
 .nav_brand_text:hover {
   color: var(--white);
