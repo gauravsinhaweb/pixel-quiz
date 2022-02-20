@@ -1,0 +1,47 @@
+h1 {
+  margin: 0;
+}
+.question_list {
+  list-style-type: decimal;
+}
+.nav_icons {
+  font-size: 1rem;
+}
+.options {
+  padding: 0;
+  list-style-type: none;
+  margin: 1.5rem 0;
+}
+.options li {
+  padding: 0.5rem 0;
+}
+.option > .btn {
+  font-size: 1rem;
+  width: 80%;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.option > .btn-option {
+  opacity: 1;
+}
+.option > .btn-option:focus {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--white);
+  will-change: background-color;
+}
+.check {
+  font-size: 1rem;
+  color: var(--success-li);
+}
+.wrapper_submit > a > .btn,
+.wrapper_submit > a > .btn_submit {
+  font-size: 1rem;
+}
+
+/* modal  */
+
+.modal > .modal_box {
+  padding: 1rem;
+}
