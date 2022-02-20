@@ -1,0 +1,16 @@
+.wrapper_category {
+  flex-direction: column;
+}
+
+main > a > .card {
+  background-color: var(--cta);
+  color: var(--bg-color);
+  cursor: pointer;
+}
+main > a > .card:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease-in-out;
+}
+.category_head_text {
+  margin: 2rem 4rem;
+}
