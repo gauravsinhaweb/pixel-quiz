@@ -6,6 +6,8 @@
 }
 .showcase {
   color: #f0b106;
+
+  color: var(--gold);
   align-items: baseline;
 }
 .showcase span {
@@ -29,6 +31,8 @@
 }
 .card_score span:nth-child(1) {
   color: #f0b106;
+
+  color: var(--gold);
 }
 .card_score span:nth-child(2) {
   text-transform: uppercase;

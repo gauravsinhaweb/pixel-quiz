@@ -26,10 +26,14 @@ header > .card {
 }
 
 /* nav  */
+
 .container > .wrapper_nav {
   justify-content: space-between;
   height: 4rem;
   padding: 0 2rem;
+  align-items: baseline;
+  background-color: var(--cta);
+  color: var(--bg-color);
 }
 .nav_brand_text {
   text-transform: uppercase;
@@ -101,4 +105,10 @@ section > a > .card {
   font-weight: 600;
   width: fit-content;
   z-index: 999;
+}
+
+@media screen and (max-width: 65rem) {
+  .modal > .modal_box {
+    margin: auto 2rem;
+  }
 }
