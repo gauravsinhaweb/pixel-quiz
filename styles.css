@@ -102,3 +102,9 @@ section > a > .card {
   width: fit-content;
   z-index: 999;
 }
+
+@media screen and (max-width: 65rem) {
+  .modal > .modal_box {
+    margin: auto 2rem;
+  }
+}

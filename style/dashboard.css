@@ -1,0 +1,42 @@
+.wrapper_card > .card {
+  width: auto;
+}
+.wrapper-main {
+  margin: 2rem;
+}
+.showcase {
+  color: var(--gold);
+  align-items: baseline;
+}
+.showcase span {
+  padding: 4px;
+}
+.showcase span:nth-child(2) {
+  font-size: 6rem;
+  margin: 2rem 0;
+}
+.card_score {
+  justify-content: space-between;
+  color: var(--text-primary);
+  padding: 1rem 2rem;
+  align-items: baseline;
+  margin: 1.5rem 0;
+  user-select: none;
+}
+.card_score span:nth-child(2),
+.card_score span:nth-child(3) {
+  font-size: 1.2rem;
+}
+.card_score span:nth-child(1) {
+  color: var(--gold);
+}
+.card_score span:nth-child(2) {
+  text-transform: uppercase;
+}
+.card_score span:nth-child(3) {
+  font-size: 0.8rem;
+}
+.btn_play {
+  transform: scale(0.8);
+  margin-top: 1rem;
+}
