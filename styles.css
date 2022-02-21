@@ -26,10 +26,14 @@ header > .card {
 }
 
 /* nav  */
+
 .container > .wrapper_nav {
   justify-content: space-between;
   height: 4rem;
   padding: 0 2rem;
+  align-items: baseline;
+  background-color: var(--cta);
+  color: var(--bg-color);
 }
 .nav_brand_text {
   text-transform: uppercase;
