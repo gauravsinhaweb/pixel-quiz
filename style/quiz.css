@@ -46,14 +46,20 @@ h1 {
 
 .modal > .modal_box {
   padding: 1rem;
+  width: fit-content;
 }
+
 .wrapper_cta_button {
   justify-content: flex-end;
   align-items: flex-end;
   gap: 2rem;
   margin-top: 1rem;
 }
-
+#close-rules > .fa,
+.fas {
+  cursor: pointer;
+  font-weight: 100;
+}
 .wrapper_cta_button > a > button,
 .wrapper_cta_button > button {
   font-size: 1rem;
