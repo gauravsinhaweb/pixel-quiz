@@ -4,7 +4,7 @@
 A Quiz App.
 
 
-![pixel-quiz](https://user-images.githubusercontent.com/75125943/155072626-075fe794-a001-4478-a338-e5f1d5985197.mp4)
+https://user-images.githubusercontent.com/75125943/155072626-075fe794-a001-4478-a338-e5f1d5985197.mp4
 
 
 
